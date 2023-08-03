@@ -1,5 +1,5 @@
 import { asyncError, errorHandler } from "../../../middleware/error";
-import { checkAuth, connectDB } from "../../../utils/features";
+import { checkAuth } from "../../../utils/features";
 
 const handler = asyncError(async(req,res)=>{
     if (req.method !== "GET")

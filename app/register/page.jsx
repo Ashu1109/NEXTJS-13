@@ -52,9 +52,6 @@ if(user._id){return redirect('/')}
   )
 }
 
-// export const metadata = {
-//     title: 'Register',
-//     description: 'Register page of Todo app Made For Good People',
-//   }
+
 
 export default Page

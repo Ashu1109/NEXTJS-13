@@ -1,6 +1,6 @@
 import { checkAuth, connectDB } from '../../utils/features'
 import { asyncError, errorHandler } from '../../middleware/error'
-import { Task } from '../../models/task'
+import { Task } from '../../models/Task'
 
 const handler = asyncError(async (req, res) => {
     if (req.method !== "POST")

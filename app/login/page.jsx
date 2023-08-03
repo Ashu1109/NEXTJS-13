@@ -47,8 +47,3 @@ const Page = () => {
   )
 }
 export default Page
-
-// const metadata = {
-//     title: 'Login',
-//     description: 'Login page of Todo app Made For Good People',
-//   }
